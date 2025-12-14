@@ -1,0 +1,62 @@
+[
+  {
+    "dependencyName": "log4j-core",
+    "affectedVersion": "2.14.1",
+    "description": "Apache Log4j2 JNDI features do not protect against attacker controlled LDAP and other JNDI related endpoints. CVE-2021-44228",
+    "severity": "CRITICAL"
+  },
+  {
+    "dependencyName": "jackson-databind",
+    "affectedVersion": "2.12.0",
+    "description": "FasterXML jackson-databind through 2.12.1 allows attackers to cause a denial of service via a large depth of nested objects. CVE-2020-36518",
+    "severity": "HIGH"
+  },
+  {
+    "dependencyName": "commons-collections",
+    "affectedVersion": "3.2.2",
+    "description": "Apache Commons Collections InvokerTransformer code execution vulnerability. CVE-2015-6420",
+    "severity": "HIGH"
+  },
+  {
+    "dependencyName": "httpclient",
+    "affectedVersion": "4.5.13",
+    "description": "Apache HttpClient versions prior to 4.5.14 are vulnerable to response header injection attacks. CVE-2022-45868",
+    "severity": "MEDIUM"
+  },
+  {
+    "dependencyName": "jjwt",
+    "affectedVersion": "0.9.1",
+    "description": "JJWT versions before 0.10.0 allow signature bypass via algorithm confusion attack. CVE-2019-7644",
+    "severity": "HIGH"
+  },
+  {
+    "dependencyName": "gson",
+    "affectedVersion": "2.8.9",
+    "description": "Google Gson versions before 2.8.9 are vulnerable to deserialization attacks. CVE-2022-25647",
+    "severity": "MEDIUM"
+  },
+  {
+    "dependencyName": "mysql-connector-java",
+    "affectedVersion": "8.0.32",
+    "description": "MySQL Connector/J allows attackers to access sensitive information via deserialization. CVE-2023-21971",
+    "severity": "LOW"
+  },
+  {
+    "dependencyName": "spring-boot-starter-web",
+    "affectedVersion": "3.0.5",
+    "description": "Spring Boot versions before 3.0.6 have a potential security issue in web starter. CVE-2023-20861",
+    "severity": "LOW"
+  },
+  {
+    "dependencyName": "spring-kafka",
+    "affectedVersion": "3.0.5",
+    "description": "Apache Kafka clients may be vulnerable to man-in-the-middle attacks in certain configurations. CVE-2023-25194",
+    "severity": "MEDIUM"
+  },
+  {
+    "dependencyName": "postgresql",
+    "affectedVersion": "42.5.4",
+    "description": "PostgreSQL JDBC driver versions before 42.5.5 have potential security issues with connection handling. CVE-2023-32731",
+    "severity": "LOW"
+  }
+]
